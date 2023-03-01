@@ -6,9 +6,9 @@ from PIL import Image # pip install pillow
 
 # --- PATH SETTINGS ---
 THIS_DIR = os.getcwd()
-ASSETS_DIR = THIS_DIR / "assets"
-STYLES_DIR = THIS_DIR / "styles"
-CSS_FILE = STYLES_DIR / "main.css"
+ASSETS_DIR = THIS_DIR / assets
+STYLES_DIR = THIS_DIR / styles
+CSS_FILE = STYLES_DIR / main.css
 
 # --- GENERAL SETTINGS ---
 STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
