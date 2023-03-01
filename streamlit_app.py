@@ -15,17 +15,17 @@ STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
 CONTACT_EMAIL = "venidavchev@gmail.com"
 DEMO_VIDEO = "https://www.youtube.com/watch?v=DUqqPCPll_g"
 PRODUCT_NAME = "Websait-a na Venelin "
-PRODUCT_TAGLINE = "Dopulnitelni dohodi"
+PRODUCT_TAGLINE = "Dopulnitelni dohodi :money_mouth_face: "
 PRODUCT_DESCRIPTION = """
 Tozi website e specialno za nashte.
-Tova e kratko opsisanie kakvo e tova:
+Tova e kratko opsisanie:
 
-- Moje da mi prevedete pari super lesno.
-- Ne vi trqbva IBAN ili BIC, vsi4ko e olesneno.
-- Nqma nujda da tursite nqkvi stutinki i da mi pulnite djobovete.
-- Shte pisha i na kirilica kato obnovq websaita.
-- Tova e samo probno. Mojete da mi prashtate emaili i da si go razglejdate.
-- ...v budeshte vski4ko shte e mnogo po lesno
+:small_blue_diamond:  Moje da mi prevedete pari super lesno.
+:small_blue_diamond:  Ne vi trqbva IBAN ili BIC, vsi4ko e olesneno.
+:small_blue_diamond:  Nqma nujda da tursite nqkvi stutinki i da mi pulnite djobovete. :moneybag:
+:small_blue_diamond:  Shte pisha i na kirilica kato obnovq websaita.
+:small_blue_diamond:  Tova e samo probno. Mojete da mi prashtate emaili i da si go razglejdate.
+:small_blue_diamond:  ...v budeshte vski4ko shte e mnogo po lesno
 **Tova e noviqt vi supergeroi; zashto sa vi QR-Cod-ove ili IBAN-i ?
 """
 
@@ -63,7 +63,7 @@ st.write("---")
 st.write(":rocket: Features")
 features = {
     "IMG_4018.jpg" : [
-        "Super strashna snimka",
+        "Super strashna snimka :anger:",
         "Logoto e napraveno za kanala ni v TikTok. Shtqhme da pravim videa s BeyBlade-ove, ama te sa okazaha bokluci..."
     ],
     "IMG_4016.jpg" : [
@@ -75,7 +75,6 @@ features = {
         "Tva e po svetloto logo",
         "Malko e klische. Ima mnogo jenski cvetove, ama ne e zle. ",
         "Vie kakvo mislite? "
-        "  --- Python is fun --- "
     ]
 }
 
@@ -98,11 +97,11 @@ st.write("")
 st.write("---")
 st.subheader(":raising_hand: FAQ")
 faq = {
-    "Zashto moje da mi trqbvat pari? " : "Za Frizior, na primerno. Ili puk da izlezna s Paulina na vun.",
-    "Kak moje da mi prevedete pari? " : "Cukate na golemiq buton s nadpis \"Darenie\" i si izbirate metod za plashtane. ",
-    "Kakvi metodi ima za plashtane? " : "Moje s kreditna karta. Moje da mi pishete email i da mi gi dadete na ruka. Moje s PayPal. Moje i po bankov put.",
-    "Dimitar shte vzeme li pari ot tazi tranzakciq? " : "Moje da mu sa iska mnogo, ama nqma. Az sam si sa potrudih za tozi website i si e vsi4ko za men.",
-    "Zashto v momenta ne raboti? " : "4akam da mi stane PayPal-a i trqbva da si napravq link za plashtane. V kratkoto budeshte shte mojete da mi prashtate pari.",
+    ":small_blue_diamond: Zashto moje da mi trqbvat pari? " : "Za Frizior, na primerno. :scissors:  Ili puk da izlezna s Paulina na vun. :wine_glass: ",
+    ":small_blue_diamond: Kak moje da mi prevedete pari? " : "Cukate na golemiq buton s nadpis \"Darenie\" i si izbirate metod za plashtane. :currency_exchange: ",
+    ":small_blue_diamond: Kakvi metodi ima za plashtane? " : "Moje s kreditna karta. :credit_card: Moje da mi pishete email i da mi gi dadete na ruka. :e-mail: Moje s PayPal. Moje i po bankov put. :inbox_tray: ",
+    ":small_blue_diamond: Dimitar shte vzeme li pari ot tazi tranzakciq? " : ":pound_symbol: Moje da mu sa iska mnogo, ama nqma. Az sam si sa potrudih za tozi website i si e vsi4ko za men.",
+    ":small_blue_diamond: Zashto v momenta ne raboti? " : "4akam da mi stane PayPal-a i trqbva da si napravq link za plashtane. V kratkoto budeshte shte mojete da mi prashtate pari.",
 }
 
 for question, answer in faq.items():
