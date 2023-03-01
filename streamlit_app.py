@@ -12,21 +12,21 @@ CSS_FILE = f"{STYLES_DIR}/main.css"
 
 # --- GENERAL SETTINGS ---
 STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
-CONTACT_EMAIL = "YOUREMAIL@EMAIL.COM"
+CONTACT_EMAIL = "venidavchev@gmail.com"
 DEMO_VIDEO = "https://www.youtube.com/watch?v=DUqqPCPll_g"
-PRODUCT_NAME = "Excel Add-in: MyToolBelt"
-PRODUCT_TAGLINE = "Ready To Become an Office Superhero"
+PRODUCT_NAME = "Websit-a na Venelin "
+PRODUCT_TAGLINE = "Dopulnitelni dohodi"
 PRODUCT_DESCRIPTION = """
-MyToolBelt saves every smart office worker time and effort 
-when it dcomes to analysis with a unique set od tools you won't find anywhere else:
+Tozi website e specialno za nashte.
+Tova e kratko opsisanie kakvo e tova:
 
-- Generate flawless Python code
-- Call Python scripts 
-- Create Junyper Notebooks from Excel
-- Add tickmarks to cells and highlight key areas
-- Create an informative table of content with ease
-- ...and many more powerful features
-**This is your new superpower; why go to work without it ?
+- Moje da mi prevedete pari super lesno.
+- Ne vi trqbva IBAN ili BIC, vsi4ko e olesneno.
+- Nqma nujda da tursite nqkvi stutinki i da mi pulnite djobovete.
+- Shte pisha i na kirilica kato obnovq websaita.
+- Tova e samo probno. Mojete da mi prashtate emaili i da si go razglejdate.
+- ...v budeshte vski4ko shte e mnogo po lesno
+**Tova e noviqt vi supergeroi; zashto sa vi QR-Cod-ove ili IBAN-i ?
 """
 
 def load_css_file(css_file_path):
@@ -63,19 +63,19 @@ st.write("---")
 st.write(":rocket: Features")
 features = {
     "IMG_4018.jpg" : [
-        "Run Python Files From Excel",
-        "After blah balh some info with long text that sounds very convincing to buy my product"
+        "Super strashna snimka",
+        "Logoto e napraveno za kanali ni v TikTok. Shtqhme da pravim videa s BeyBlade-ove, ama te sa okazaha bokluci..."
     ],
     "IMG_4016.jpg" : [
-        "Create Pandas Dataframes",
-        "Much more info about every little convincing thing that will make you give me your money and run away with it"
-        "And then last foto"
+        "Oshte edna snimka da logoto ni",
+        "Qki sa a? "
+        " Deiba i tupite kitaici, ama nishto."
     ],
     "IMG_4024.jpg" : [
-        "Create Jupyter Notebooks",
-        "Last picture, idk how didnt spell anything wrong for now, but here you go more info",
-        "Nevermind just pay me and you'll get my great product which im trying to convince to for so much time and effort"
-        "Python is fun"
+        "Tva e po svetloto logo",
+        "Malko e klische. Ima mnogo jenski cvetove, ama ne e zle. ",
+        "Vie kakvo mislite? "
+        "  ---Python is fun--- "
     ]
 }
 
@@ -98,11 +98,11 @@ st.write("")
 st.write("---")
 st.subheader(":raising_hand: FAQ")
 faq = {
-    "Question 1" : "Some very smart answer that convice you to buy more of my product",
-    "Question 2" : "Some very smart answer that convice you to buy more of my product",
-    "Question 3" : "Some very smart answer that convice you to buy more of my product",
-    "Question 4" : "Some very smart answer that convice you to buy more of my product",
-    "Question 5" : "Some very smart answer that convice you to buy more of my product",
+    "Zashto moje da mi trqbvat pari? " : "Za Frizior, na primerno. Ili puk da izlezna s Paulina na vun.",
+    "Kak moje da mi prevedete pari? " : "Cukate na golemiq buton s nadpis \"Darenie\" i si izbirate metod za plashtane. ",
+    "Kakvi metodi ima za plashtane? " : "Moje s kreditna karta. Moje da mi pishete email i da mi gi dadete na ruka. Moje s PayPal. Moje i po bankov put.",
+    "Dimitar shte vzeme li pari ot tazi tranzakciq? " : "Moje da mu sa iska mnogo, ama nqma. Az sam si sa potrudih za tozi website i si e vsi4ko za men.",
+    "Zashto v momenta ne raboti? " : "4akam da mi stane PayPal-a i trqbva da si napravq link za plashtane. V kratkoto budeshte shte mojete da mi prashtate pari.",
 }
 
 for question, answer in faq.items():
