@@ -4,7 +4,7 @@ import streamlit as st # pip install streamlit
 from PIL import Image # pip install pillow
 
 # --- PATH SETTINGS ---
-THIS_DIR = Path(__file__)
+THIS_DIR = Path(streamli_app.py)
 ASSETS_DIR = THIS_DIR / "assets"
 STYLES_DIR = THIS_DIR / "styles"
 CSS_FILE = STYLES_DIR / "main.css"
@@ -29,7 +29,7 @@ when it dcomes to analysis with a unique set od tools you won't find anywhere el
 """
 
 def load_css_file(css_file_path):
-    with open('main.css')as f:
+    with open(css_file_path)as f:
         return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # --- PAGE CONFIG ---
