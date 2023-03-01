@@ -25,7 +25,7 @@ Tova e kratko opsisanie:
 -  Nqma nujda da tursite nqkvi stutinki i da mi pulnite djobovete. :moneybag:
 -  Shte pisha i na kirilica kato obnovq websaita. :bookmark_tabs: 
 -  Tova e samo probno. Mojete da mi prashtate emaili i da si go razglejdate.
--  ...v budeshte vski4ko shte e mnogo po lesno :heavy_check_mark: 
+-  ...v budeshte vski4ko shte e mnogo po lesno
 **Tova e noviqt vi supergeroi! Zashto sa vi QR-Cod-ove ili IBAN-i ? :question:
 """
 
