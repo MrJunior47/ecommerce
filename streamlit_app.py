@@ -118,7 +118,7 @@ contact_form = f"""
     <input type="text" name="name" placeholder="Името тук" required>
     <input type="email" name="email" placeholder="Еmailа тук" required>
     <textarea name="message" placeholder="Напишете някакво съобщение"></textarea>
-    <button type="submit" class="button" method="POST">Изпрати emailа</button>
+    <button type="submit" class="button">Изпрати emailа</button>
 </form>
 """
 
