@@ -14,7 +14,7 @@ CSS_FILE = f"{STYLES_DIR}/main.css"
 STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
 CONTACT_EMAIL = "venidavchev@gmail.com"
 DEMO_VIDEO = "https://www.youtube.com/watch?v=DUqqPCPll_g"
-PRODUCT_NAME = "Websait-a нa Venelin "
+PRODUCT_NAME = "Уебсайта нa Венелин "
 PRODUCT_TAGLINE = "Допълнителни доходи :money_mouth_face: "
 PRODUCT_DESCRIPTION = """
 Този сайт е специално за наще.
@@ -22,10 +22,9 @@ PRODUCT_DESCRIPTION = """
 
 -  Можете да ми преведете пари супер лесно. :white_check_mark: 
 -  Нямате нужда от IBAN или BIC, всичко е улеснено. :martial_arts_uniform: 
--  Няма нужда да търсите някакви стотинки и да пълните джобовете ми. :moneybag:
--  Ще пиша на кирилица, когато подновя сайта. :bookmark_tabs: 
--  Това е само пробно. Можете да ми изпращате имейлил
--  ...в бъдеще всичко ще бъде по-лесно
+-  Няма нужда да търсите някакви стотинки и да пълните джобовете ми. :moneybag: 
+-  Това е само пробно. Можете да ми изпращате имейлил 
+-  ...в бъдеще всичко ще бъде по-лесно :bookmark_tabs:
 - Това е новият ви супергерой! :hero:
 - Защо са ви QR-Cod-oвe или IBAN-и :question:
 """
