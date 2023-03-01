@@ -54,7 +54,7 @@ with left_col:
         unsafe_allow_html=True,
     )
 with right_col:
-    product_image = Image.open(ASSETS_DIR / "IMG_4018.jpg")
+    product_image = Image.open("/app/ecommerce/Assets/IMG_4018.jpg")
     st.image(product_image, width=450)
 
 # --- FEATURES ---
@@ -80,7 +80,7 @@ features = {
 }
 
 for image, description in features.items():
-    image = Image.open(ASSETS_DIR / image)
+    image = Image.open("/app/ecommerce/Assets" / image)
     st.write("")
     left_col, right_col = st.columns(2)
     left_col.image(image, use_column_width=True)
