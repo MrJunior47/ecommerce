@@ -26,8 +26,7 @@ Tova e kratko opsisanie:
 -  Shte pisha i na kirilica kato obnovq websaita. :bookmark_tabs: 
 -  Tova e samo probno. Mojete da mi prashtate emaili i da si go razglejdate.
 -  ...v budeshte vski4ko shte e mnogo po lesno :heavy_check_mark: 
-**Tova e noviqt vi supergeroi :man_superhero_light_skin_tone: 
-**zashto sa vi QR-Cod-ove ili IBAN-i ? :qustion:
+**Tova e noviqt vi supergeroi :man_superhero_light_skin_tone:  **Zashto sa vi QR-Cod-ove ili IBAN-i ? :qustion:
 """
 
 def load_css_file(css_file_path):
