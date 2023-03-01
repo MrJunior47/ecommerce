@@ -1,10 +1,11 @@
 from pathlib import Path 
+import os
 
 import streamlit as st # pip install streamlit
 from PIL import Image # pip install pillow
 
 # --- PATH SETTINGS ---
-THIS_DIR = Path.os.getcwd()
+THIS_DIR = os.getcwd()
 ASSETS_DIR = THIS_DIR / "assets"
 STYLES_DIR = THIS_DIR / "styles"
 CSS_FILE = STYLES_DIR / "main.css"
