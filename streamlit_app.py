@@ -7,6 +7,7 @@ from PIL import Image # pip install pillow
 THIS_DIR = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 ASSETS_DIR = THIS_DIR / "assets"
 STYLES_DIR = THIS_DIR / "styles"
+CSS_FILE = STYLES_DIR / "main.css"
 
 # --- GENERAL SETTINGS ---
 STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
@@ -38,7 +39,7 @@ st.set_page_config(
     layout = "centered",
     initial_sidebar_state = "collapsed",
 )
-
+load_css_file(CSS_FILE)
 # --- MAIN SECTION ---
 
 st.header(PRODUCT_NAME)
