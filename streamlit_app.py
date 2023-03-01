@@ -101,7 +101,7 @@ faq = {
     ":small_blue_diamond: Zashto moje da mi trqbvat pari? :arrow_down_small: " : "Za Frizior, na primerno. :scissors:  Ili puk da izlezna s Paulina na vun. :wine_glass: ",
     ":small_blue_diamond: Kak moje da mi prevedete pari? :arrow_down_small: " : "Cukate na golemiq buton s nadpis \"Darenie\" i si izbirate metod za plashtane. :currency_exchange: ",
     ":small_blue_diamond: Kakvi metodi ima za plashtane? :arrow_down_small: " : "Moje s kreditna karta. :credit_card: Moje da mi pishete email i da mi gi dadete na ruka. :e-mail: Moje s PayPal. Moje i po bankov put. :inbox_tray: ",
-    ":small_blue_diamond: Dimitar shte vzeme li pari ot tazi tranzakciq? :arrow_down_small: " : "Moje da mu sa iska mnogo, ama nqma. :no_pedestrians:  Az sam si sa potrudih za tozi website i si e vsi4ko za men. :man_construction_worker_medium_skin_tone: ",
+    ":small_blue_diamond: Dimitar shte vzeme li pari ot taq rabota? :arrow_down_small: " : "Moje da mu sa iska mnogo, ama nqma. :no_pedestrians:  Az sam si sa potrudih za tozi website i si e vsi4ko za men. :man_construction_worker_medium_skin_tone: ",
     ":small_blue_diamond: Zashto v momenta ne raboti? :arrow_down_small: " : "Shte go napravq na bulgarski ezik :new: 4akam da mi stane PayPal-a i trqbva da si napravq link za plashtane. :new:  V kratkoto budeshte shte mojete da mi prashtate pari. :new: ",
 }
 
