@@ -20,13 +20,14 @@ PRODUCT_DESCRIPTION = """
 Tozi website e specialno za nashte.
 Tova e kratko opsisanie:
 
-:small_blue_diamond:  Moje da mi prevedete pari super lesno.
-:small_blue_diamond:  Ne vi trqbva IBAN ili BIC, vsi4ko e olesneno.
-:small_blue_diamond:  Nqma nujda da tursite nqkvi stutinki i da mi pulnite djobovete. :moneybag:
-:small_blue_diamond:  Shte pisha i na kirilica kato obnovq websaita.
-:small_blue_diamond:  Tova e samo probno. Mojete da mi prashtate emaili i da si go razglejdate.
-:small_blue_diamond:  ...v budeshte vski4ko shte e mnogo po lesno
-**Tova e noviqt vi supergeroi; zashto sa vi QR-Cod-ove ili IBAN-i ?
+-  Moje da mi prevedete pari super lesno.
+-  Ne vi trqbva IBAN ili BIC, vsi4ko e olesneno.
+-  Nqma nujda da tursite nqkvi stutinki i da mi pulnite djobovete. :moneybag:
+-  Shte pisha i na kirilica kato obnovq websaita.
+-  Tova e samo probno. Mojete da mi prashtate emaili i da si go razglejdate.
+-  ...v budeshte vski4ko shte e mnogo po lesno
+**Tova e noviqt vi supergeroi :man_superhero_light_skin_tone: 
+**zashto sa vi QR-Cod-ove ili IBAN-i ?
 """
 
 def load_css_file(css_file_path):
@@ -97,11 +98,11 @@ st.write("")
 st.write("---")
 st.subheader(":raising_hand: FAQ")
 faq = {
-    ":small_blue_diamond: Zashto moje da mi trqbvat pari? " : "Za Frizior, na primerno. :scissors:  Ili puk da izlezna s Paulina na vun. :wine_glass: ",
-    ":small_blue_diamond: Kak moje da mi prevedete pari? " : "Cukate na golemiq buton s nadpis \"Darenie\" i si izbirate metod za plashtane. :currency_exchange: ",
-    ":small_blue_diamond: Kakvi metodi ima za plashtane? " : "Moje s kreditna karta. :credit_card: Moje da mi pishete email i da mi gi dadete na ruka. :e-mail: Moje s PayPal. Moje i po bankov put. :inbox_tray: ",
-    ":small_blue_diamond: Dimitar shte vzeme li pari ot tazi tranzakciq? " : ":pound_symbol: Moje da mu sa iska mnogo, ama nqma. Az sam si sa potrudih za tozi website i si e vsi4ko za men.",
-    ":small_blue_diamond: Zashto v momenta ne raboti? " : "4akam da mi stane PayPal-a i trqbva da si napravq link za plashtane. V kratkoto budeshte shte mojete da mi prashtate pari.",
+    ":small_blue_diamond: Zashto moje da mi trqbvat pari? :arrow_down_small: " : "Za Frizior, na primerno. :scissors:  Ili puk da izlezna s Paulina na vun. :wine_glass: ",
+    ":small_blue_diamond: Kak moje da mi prevedete pari? :arrow_down_small: " : "Cukate na golemiq buton s nadpis \"Darenie\" i si izbirate metod za plashtane. :currency_exchange: ",
+    ":small_blue_diamond: Kakvi metodi ima za plashtane? :arrow_down_small: " : "Moje s kreditna karta. :credit_card: Moje da mi pishete email i da mi gi dadete na ruka. :e-mail: Moje s PayPal. Moje i po bankov put. :inbox_tray: ",
+    ":small_blue_diamond: Dimitar shte vzeme li pari ot tazi tranzakciq? :arrow_down_small: " : ":pound_symbol: Moje da mu sa iska mnogo, ama nqma.:no_pedestrians:  Az sam si sa potrudih za tozi website i si e vsi4ko za men.",
+    ":small_blue_diamond: Zashto v momenta ne raboti? :arrow_down_small: " : "Shte go napravq na bulgarski ezik :new: 4akam da mi stane PayPal-a i trqbva da si napravq link za plashtane. :new:  V kratkoto budeshte shte mojete da mi prashtate pari. :new: ",
 }
 
 for question, answer in faq.items():
