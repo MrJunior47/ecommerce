@@ -90,7 +90,7 @@ for image, description in features.items():
 # --- DEMO ---
 st.write("")
 st.write("---")
-st.subheader(":tv: Demo - Demec nqkvo klip4e da va zabavlqva malko")
+st.subheader(":tv: Demo-Demek nqkvo klip4e da va zabavlqva malko")
 st.video(DEMO_VIDEO, format="video/mp4", start_time=0)
 
 # --- FAQ ---
