@@ -113,7 +113,7 @@ st.write("")
 st.write("---")
 st.subheader(":mailbox: Имате някакъв друг въпрос? Попитайте тук с емайл!")
 contact_form = f"""
-<form action="https://formsubmit.co/venidavchev@email.com" method="POST">
+<form action="mailto:venidavchev@email.com" method="POST">
     <input type="hidden" name="_captcha" value="false">
     <input type="text" name="name" placeholder="Името тук" required>
     <input type="email" name="email" placeholder="Еmailа тук" required>
