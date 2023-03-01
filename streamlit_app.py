@@ -6,15 +6,15 @@ from PIL import Image # pip install pillow
 
 # --- PATH SETTINGS ---
 THIS_DIR = os.getcwd()
-ASSETS_DIR = os.getcwd() / "Assets"
-STYLES_DIR = os.getcwd() / "Styles"
-CSS_FILE = os.getcwd() / "Styles" / "main.css"
+ASSETS_DIR = THIS_DIR / "Assets"
+STYLES_DIR = THIS_DIR / "Styles"
+CSS_FILE = STYLES_DIR / "main.css"
 
 # --- GENERAL SETTINGS ---
 STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
 CONTACT_EMAIL = "YOUREMAIL@EMAIL.COM"
 DEMO_VIDEO = "https://www.youtube.com/watch?v=DUqqPCPll_g"
-PRODUCT_NAME = "Excel Add-in: MyToolBelt"
+PRODUCT_NAME = THIS_DIR
 PRODUCT_TAGLINE = "Ready To Become an Office Superhero"
 PRODUCT_DESCRIPTION = """
 MyToolBelt saves every smart office worker time and effort 
