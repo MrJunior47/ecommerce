@@ -29,10 +29,10 @@ when it dcomes to analysis with a unique set od tools you won't find anywhere el
 **This is your new superpower; why go to work without it ?
 """
 
-'''def load_css_file(css_file_path):
-    with open(css_file_path)as f:
-        return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-'''
+#def load_css_file(css_file_path):
+#   with open(css_file_path)as f:
+#       return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
 # --- PAGE CONFIG ---
 st.set_page_config(
     page_title = PRODUCT_NAME ,
