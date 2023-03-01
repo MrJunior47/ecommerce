@@ -6,9 +6,9 @@ from PIL import Image # pip install pillow
 
 # --- PATH SETTINGS ---
 THIS_DIR = os.getcwd()
-ASSETS_DIR = "/app/ecommerce/Assets"
-STYLES_DIR = "/app/ecommerce/Styles"
-# CSS_FILE = STYLES_DIR / "main.css"
+ASSETS_DIR = f"{THIS_DIR}/Assets"
+STYLES_DIR = f"{THIS_DIR}/Styles"
+CSS_FILE = f"{STYLES_DIR}/main.css"
 
 # --- GENERAL SETTINGS ---
 STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
@@ -29,9 +29,9 @@ when it dcomes to analysis with a unique set od tools you won't find anywhere el
 **This is your new superpower; why go to work without it ?
 """
 
-#def load_css_file(css_file_path):
-#   with open(css_file_path)as f:
-#       return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+def load_css_file(css_file_path):
+   with open(css_file_path)as f:
+       return st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # --- PAGE CONFIG ---
 st.set_page_config(
@@ -40,7 +40,7 @@ st.set_page_config(
     layout = "centered",
     initial_sidebar_state = "collapsed",
 )
-#load_css_file(CSS_FILE)
+load_css_file(CSS_FILE)
 # --- MAIN SECTION ---
 
 st.header(PRODUCT_NAME)
