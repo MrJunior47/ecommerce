@@ -90,13 +90,13 @@ for image, description in features.items():
 # --- DEMO ---
 st.write("")
 st.write("---")
-st.subheader(":tv: Demo-Demek nqkvo klip4e da va zabavlqva malko")
+st.subheader(":tv: Demo-Демек някво клипче за да ва забавлвам малко")
 st.video(DEMO_VIDEO, format="video/mp4", start_time=0)
 
 # --- FAQ ---
 st.write("")
 st.write("---")
-st.subheader(":raising_hand: FAQ")
+st.subheader(":raising_hand: Въпроси и отговори")
 faq = {
     ":small_blue_diamond: Защо може да ми трябват пари? :arrow_down_small: " : "За фризьор, на примерно. :scissors: Или пък да излезна с Паулина на вън. :wine_glass: ",
     ":small_blue_diamond: Как може да ми преведете пари? :arrow_down_small: " : "Цъкате на големия бутон с надпис \"Дари пари\" и си избирате метод за плащане. :currency_exchange: ",
@@ -112,7 +112,7 @@ for question, answer in faq.items():
 # --- CONTACT FORM ---
 st.write("")
 st.write("---")
-st.subheader(":mailbox: Have a quesiton? Ask Away!")
+st.subheader(":mailbox: Имате някакъв друг въпрос? Попитайте тук с емайл!")
 contact_form = f"""
 <form action="https://formsubmit.co/{CONTACT_EMAIL} method="POST">
     <input type="hidden" name="_captcha" value="false">
