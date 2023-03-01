@@ -80,7 +80,7 @@ features = {
 }
 
 for image, description in features.items():
-    image = Image.open("/app/ecommerce/Assets" / image)
+    image = Image.open(f"/app/ecommerce/Assets/{image}")
     st.write("")
     left_col, right_col = st.columns(2)
     left_col.image(image, use_column_width=True)
