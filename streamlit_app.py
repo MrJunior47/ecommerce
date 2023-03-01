@@ -14,7 +14,7 @@ CSS_FILE = f"{STYLES_DIR}/main.css"
 STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
 CONTACT_EMAIL = "venidavchev@gmail.com"
 DEMO_VIDEO = "https://www.youtube.com/watch?v=DUqqPCPll_g"
-PRODUCT_NAME = "Websit-a na Venelin "
+PRODUCT_NAME = "Websait-a na Venelin "
 PRODUCT_TAGLINE = "Dopulnitelni dohodi"
 PRODUCT_DESCRIPTION = """
 Tozi website e specialno za nashte.
@@ -50,7 +50,7 @@ with left_col:
     st.text("")
     st.write(PRODUCT_DESCRIPTION)
     st.markdown(
-        f'<a href={STRIPE_CHECKOUT} class="button"> Get the add-in</a>',
+        f'<a href={STRIPE_CHECKOUT} class="button">Darenie</a>',
         unsafe_allow_html=True,
     )
 with right_col:
@@ -64,7 +64,7 @@ st.write(":rocket: Features")
 features = {
     "IMG_4018.jpg" : [
         "Super strashna snimka",
-        "Logoto e napraveno za kanali ni v TikTok. Shtqhme da pravim videa s BeyBlade-ove, ama te sa okazaha bokluci..."
+        "Logoto e napraveno za kanala ni v TikTok. Shtqhme da pravim videa s BeyBlade-ove, ama te sa okazaha bokluci..."
     ],
     "IMG_4016.jpg" : [
         "Oshte edna snimka da logoto ni",
@@ -75,7 +75,7 @@ features = {
         "Tva e po svetloto logo",
         "Malko e klische. Ima mnogo jenski cvetove, ama ne e zle. ",
         "Vie kakvo mislite? "
-        "  ---Python is fun--- "
+        "  --- Python is fun --- "
     ]
 }
 
