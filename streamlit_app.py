@@ -14,20 +14,20 @@ CSS_FILE = f"{STYLES_DIR}/main.css"
 STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
 CONTACT_EMAIL = "venidavchev@gmail.com"
 DEMO_VIDEO = "https://www.youtube.com/watch?v=DUqqPCPll_g"
-PRODUCT_NAME = "Websait-a na Venelin "
-PRODUCT_TAGLINE = "Dopulnitelni dohodi :money_mouth_face: "
+PRODUCT_NAME = "Websait-a нa Venelin "
+PRODUCT_TAGLINE = "Допълнителни доходи :money_mouth_face: "
 PRODUCT_DESCRIPTION = """
 Tozi website e specialno za nashte.
 Tova e kratko opsisanie:
 
--  Moje da mi prevedete pari super lesno. :white_check_mark: 
--  Ne vi trqbva IBAN ili BIC, vsi4ko e olesneno. :martial_arts_uniform: 
--  Nqma nujda da tursite nqkvi stutinki i da mi pulnite djobovete. :moneybag:
--  Shte pisha i na kirilica kato obnovq websaita. :bookmark_tabs: 
--  Tova e samo probno. Mojete da mi prashtate emaili i da si go razglejdate.
--  ...v budeshte vski4ko shte e mnogo po lesno
-- Tova e noviqt vi supergeroi! :hero:
-- Zashto sa vi QR-Cod-ove ili IBAN-i :question:
+-  Можете да ми преведете пари супер лесно. :white_check_mark: 
+-  Нямате нужда от IBAN или BIC, всичко е улеснено. :martial_arts_uniform: 
+-  Няма нужда да търсите някакви стотинки и да пълните джобовете ми. :moneybag:
+-  Ще пиша на кирилица, когато подновя сайта. :bookmark_tabs: 
+-  Това е само пробно. Можете да ми изпращате имейлил
+-  ...в бъдеще всичко ще бъде по-лесно
+- Това е новият ви супергерой! :hero:
+- Защо са ви QR-Cod-oвe или IBAN-и :question:
 """
 
 def load_css_file(css_file_path):
