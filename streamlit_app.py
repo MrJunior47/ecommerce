@@ -4,7 +4,7 @@ import streamlit as st # pip install streamlit
 from PIL import Image # pip install pillow
 
 # --- PATH SETTINGS ---
-THIS_DIR = Path(__file__).parent 
+THIS_DIR = Path(__file__)
 ASSETS_DIR = THIS_DIR / "assets"
 STYLES_DIR = THIS_DIR / "styles"
 CSS_FILE = STYLES_DIR / "main.css"
