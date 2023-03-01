@@ -51,7 +51,7 @@ with left_col:
     st.text("")
     st.write(PRODUCT_DESCRIPTION)
     st.markdown(
-        f'<a href={STRIPE_CHECKOUT} class="button">:money_with_wings: Darenie</a>',
+        f'<a href={STRIPE_CHECKOUT} class="button">:money_with_wings: Дари Пари</a>',
         unsafe_allow_html=True,
     )
 with right_col:
@@ -64,18 +64,18 @@ st.write("---")
 st.write(":rocket: Features")
 features = {
     "IMG_4018.jpg" : [
-        "Super strashna snimka :anger:",
-        "Logoto e napraveno za kanala ni v TikTok. Shtqhme da pravim videa s BeyBlade-ove, ama te sa okazaha bokluci..."
+        "Супер стрaшна снимка :anger:",
+        "Логото е направено за канала ни в ТикТок. Щяхме да правим жидеа с BeyBlade-ove, ама те са оказаха боклуци..."
     ],
     "IMG_4016.jpg" : [
-        "Oshte edna snimka da logoto ni",
-        "Qki sa a? "
-        " Deiba i tupite kitaici, ama nishto."
+        "Още една снимка на логото ни",
+        "Яки са а? "
+        "Дейба и тъпите китайци, ама нищо."
     ],
     "IMG_4024.jpg" : [
-        "Tva e po svetloto logo",
-        "Malko e klische. Ima mnogo jenski cvetove, ama ne e zle. ",
-        "Vie kakvo mislite? "
+        "Това е последното лого",
+        "Малко е клише. Има много женски цветове, ама не е зле. ",
+        "Вие какво мислите? "
     ]
 }
 
@@ -98,11 +98,11 @@ st.write("")
 st.write("---")
 st.subheader(":raising_hand: FAQ")
 faq = {
-    ":small_blue_diamond: Zashto moje da mi trqbvat pari? :arrow_down_small: " : "Za Frizior, na primerno. :scissors:  Ili puk da izlezna s Paulina na vun. :wine_glass: ",
-    ":small_blue_diamond: Kak moje da mi prevedete pari? :arrow_down_small: " : "Cukate na golemiq buton s nadpis \"Darenie\" i si izbirate metod za plashtane. :currency_exchange: ",
-    ":small_blue_diamond: Kakvi metodi ima za plashtane? :arrow_down_small: " : "Moje s kreditna karta. :credit_card: Moje da mi pishete email i da mi gi dadete na ruka. :e-mail: Moje s PayPal. Moje i po bankov put. :inbox_tray: ",
-    ":small_blue_diamond: Dimitar shte vzeme li pari ot taq rabota? :arrow_down_small: " : ":shit: Moje da mu sa iska mnogo, ama nqma. :no_pedestrians:  Az sam si sa potrudih za tozi website i si e vsi4ko za men. :shark: ",
-    ":small_blue_diamond: Zashto v momenta ne raboti? :arrow_down_small: " : "Shte go napravq na bulgarski ezik :new: 4akam da mi stane PayPal-a i trqbva da si napravq link za plashtane. :new:  V kratkoto budeshte shte mojete da mi prashtate pari. :new: ",
+    ":small_blue_diamond: Защо може да ми трябват пари? :arrow_down_small: " : "За фризьор, на примерно. :scissors: Или пък да излезна с Паулина на вън. :wine_glass: ",
+    ":small_blue_diamond: Как може да ми преведете пари? :arrow_down_small: " : "Цъкате на големия бутон с надпис \"Дари пари\" и си избирате метод за плащане. :currency_exchange: ",
+    ":small_blue_diamond: Какви методи за плащане има? :arrow_down_small: " : "Може с крадитна карта. :credit_card: Може да ми пишете email и да ми ги дадете на ръка. :e-mail: Може с PayPal. Може и по банкков път. :inbox_tray: ",
+    ":small_blue_diamond: Димитър ще вземе ли пари от тая работа? :arrow_down_small: " : ":shit: Може да му се иска, ама няма. :no_pedestrians: Аз сам съм си потрудих за този website и си е всичко за мен. :shark: ",
+    ":small_blue_diamond: Защо не работи в момента? :arrow_down_small: " : "Ще го направя на български език. :new: Чакам да ми стане PayPal-a и трябва да си направя линк за плащане. :new: В краткото бъдеще ще може да ми пращате пари. :new: ",
 }
 
 for question, answer in faq.items():
@@ -116,10 +116,10 @@ st.subheader(":mailbox: Have a quesiton? Ask Away!")
 contact_form = f"""
 <form action="https://formsubmit.co/{CONTACT_EMAIL} method="POST">
     <input type="hidden" name="_captcha" value="false">
-    <input type="text" name="name" placeholder="Your name" required>
-    <input type="email" name="email" placeholder="Your email" required>
-    <textarea name="message" placeholder="Your message here"></textarea>
-    <button type="submit" class="button">Send email</button>
+    <input type="text" name="name" placeholder="Името тук" required>
+    <input type="email" name="email" placeholder="Еmailа тук" required>
+    <textarea name="message" placeholder="Напишете някакво съобщение"></textarea>
+    <button type="submit" class="button" method="POST">Send email</button>
 </form>
 """
 
