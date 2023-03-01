@@ -55,7 +55,7 @@ with left_col:
     )
 with right_col:
     product_image = Image.open("/app/ecommerce/Assets/IMG_4018.jpg")
-    st.image(product_image, width=450)
+    st.image(product_image, width=150)
 
 # --- FEATURES ---
 st.write("")
