@@ -8,7 +8,7 @@ from PIL import Image # pip install pillow
 THIS_DIR = os.getcwd()
 ASSETS_DIR = "/app/ecommerce/Assets"
 STYLES_DIR = "/app/ecommerce/Styles"
-CSS_FILE = STYLES_DIR / "main.css"
+# CSS_FILE = STYLES_DIR / "main.css"
 
 # --- GENERAL SETTINGS ---
 STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
