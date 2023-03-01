@@ -14,7 +14,7 @@ CSS_FILE = STYLES_DIR / "main.css"
 STRIPE_CHECKOUT = "https://buy.stripe.com/muss ich noch machen"
 CONTACT_EMAIL = "YOUREMAIL@EMAIL.COM"
 DEMO_VIDEO = "https://www.youtube.com/watch?v=DUqqPCPll_g"
-PRODUCT_NAME = THIS_DIR
+PRODUCT_NAME = os.getcwd()
 PRODUCT_TAGLINE = "Ready To Become an Office Superhero"
 PRODUCT_DESCRIPTION = """
 MyToolBelt saves every smart office worker time and effort 
