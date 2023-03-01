@@ -17,8 +17,8 @@ DEMO_VIDEO = "https://www.youtube.com/watch?v=DUqqPCPll_g"
 PRODUCT_NAME = "Websait-a нa Venelin "
 PRODUCT_TAGLINE = "Допълнителни доходи :money_mouth_face: "
 PRODUCT_DESCRIPTION = """
-Tozi website e specialno za nashte.
-Tova e kratko opsisanie:
+Този сайт е специално за наще.
+Това е кратко описание:
 
 -  Можете да ми преведете пари супер лесно. :white_check_mark: 
 -  Нямате нужда от IBAN или BIC, всичко е улеснено. :martial_arts_uniform: 
