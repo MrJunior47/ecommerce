@@ -6,8 +6,8 @@ from PIL import Image # pip install pillow
 
 # --- PATH SETTINGS ---
 THIS_DIR = os.getcwd()
-ASSETS_DIR = THIS_DIR/Assets
-STYLES_DIR = THIS_DIR/Styles
+ASSETS_DIR = "/app/ecommerce/Assets"
+STYLES_DIR = "/app/ecommerce/Styles"
 CSS_FILE = STYLES_DIR / "main.css"
 
 # --- GENERAL SETTINGS ---
